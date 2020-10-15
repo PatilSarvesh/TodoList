@@ -15,7 +15,9 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-patil:Kaval123@cluster0-a4yhl.mongodb.net/todolistDB", {
+
+
+mongoose.connect("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", {
   keepAlive: true,
   useNewUrlParser: true,
   useCreateIndex: true,
